@@ -1,41 +1,34 @@
 *{
-    margin: 0;
-    padding: 0;
-    text-transform: capitalize;
+    text-align: center;
 }
-.left{
-    display: flex;
-    margin-left: 100px;
-}
-.center{
-    display: flex;
-    
-}
-.right{
-    display: flex;
-    justify-content: space-between;
-}
-
-nav{
-    display: flex;
+/* -------------------------------------------header start------------------------------------------------------------------ */
+.header_section{
+    display: flex; 
+    background-color: lawngreen;
+    height: 70px;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(31, 212, 31);
-    height: 70px;
     font-size:  40px; 
+   
 }
 h1{
-    color: white;
-    text-decoration: none;
-
+   margin-left: 100px;
+   font-style: italic;
+   color: white;
 }
-
-
-.home a{
+.header_center {
+    display: flex;
+    margin: 40px;
+    align-items: center;
+}
+.home a {
     margin: 10px;
-    color: white;
+    color: black;
+    text-decoration: none;
 }
-.home a:hover{color: red;
+.home a:hover{
+    color: white;
+    text-decoration: underline;
 
 }
 .about a{
@@ -43,17 +36,20 @@ h1{
     text-decoration: none;
     color: black;
 }
-.about a:hover{color: red;
-
+.about a:hover{
+    color: white;
+    text-decoration: underline;
 }
 .services a{
     margin: 10px;
     text-decoration: none;
     color: black;
 }
-.servics a:hover{color: red;
+.services a:hover{
+    color: white;
+    text-decoration: underline;
 
-}
+} 
 .login{
     margin: 5px;
 
@@ -70,11 +66,13 @@ button{
     cursor: pointer;
 
 }
- /*.part1{
-    background-color: grey;
+/* ---------------------------------------------------------part 1---------------------------------------------------------- */
+ .part1{
+     background-color: lightgray;
+     height: 60vh;
+ }
 
-}*/
-.heading1{
+.heading{
     font-size: 2rem;
     font-style: oblique;
     text-align: center;
@@ -84,437 +82,186 @@ button{
 .box{
     float: left;
      width: 300px; 
-     height: 250px;
+     height: 300px;
     margin-left:250px;
     border: 2px solid red;
-    margin-bottom: 100px;
-    
-
+    padding: 20px;
+    margin-bottom: 15px;
 }
 .item1{
     border: 2px solid red;
     background-color: skyblue;
-    height: 25px;;
-    width:25px;
-    
-    margin-top: 5px;
-    text-align: center;
+    height: 50px;;
+    width:50px;
     margin-left: 100px;
     padding:20px;
-    
-    
-}
-.item2{
-    border: 2px solid red;
-    background-color: orange;
-    height: 25px;
-    width:25px;
-    
-    
-    text-align: center;
-    margin-left: 100px;
     margin-top: 5px;
-    padding:20px;
+    margin-bottom: 5px; 
+    font-size: large;
 }
-.item3{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;
-    width:25px;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:20px;
-    margin-bottom: 5px;
-}
-.item4{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;;
-    width:25px;
-    
-     margin-left: 100px;
-    margin-top: 5px;
-     padding:20px;
-    
-}
-.item5{
-    border: 2px solid red;
+#center{
     background-color: orange;
-    height: 25px;
-    width:25px;
+} 
+ #left{
+    background-color: orange; 
     float: left;
-    margin-top: 5px;
-    text-align: center;
     margin-left:10px;
-    padding: 20px;
-}
-.item6{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;;
-    width:25px;
-    
-     margin-left: 100px;
-    margin-top: 5px;
-     padding:20px;
-   
-}
-.item7{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;;
-    width:25px;
-    
-     margin-left: 100px;
-    margin-top: 5px;
-     padding:20px;
     
 }
-.item8{
-    border: 2px solid red;
-    background-color: orange;
-    height: 25px;
-    width:25px;
+#right{
+    background-color: orange; 
     float: right;
-    margin-top: 5px;
-    text-align: center;
-   margin-right:10px;
-    padding: 20px;
-}
-.item9{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;;
-    width:25px;
-    
-     margin-left: 100px;
-    margin-top: 5px;
-     padding:20px;
-   
-}
-.heading2{
-    font-size: 2rem;
-    font-style: oblique;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-.box1{ 
-    float: left;
-    width: 300px; 
-    height: 250px;
-   margin-left:250px;
-   border: 2px solid red;
-   margin-top: 40px;
-   margin-bottom: 40px;
+    margin-right:5px; 
 
-}
-.itema{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;;
-    width:25px;
-    
-    margin-top: 5px;
-    text-align: center;
-    margin-left: 100px;
-    padding:20px;
-    
-    
-}
-.itemb{
-    border: 2px solid red;
+} 
+/* ----------------------------------------------------part2---------------------------------------------------------------- */
+.part2{
+    height: 950px;
+    background-color: rgb(138, 223, 53);
+} 
+#relative{
     background-color: orange;
-    height: 25px;
-    width:25px;
     position: relative;
     left: 20px;
     top: 20px;
-     text-align: center;
-     margin-left: 100px;
-    
-    margin-top: 5px;
-    padding:20px;
 }
-.itemc{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;
-    width:25px;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:20px;
-    margin-bottom: 5px;
-}
-.itemd{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;;
-    width:25px;
-    
-    margin-top: 5px;
-    text-align: center;
-    margin-left: 100px;
-    padding:20px;
-    
-    
-}
-.iteme{
-    border: 2px solid red;
+#static{
     background-color: orange;
-    height: 25px;
-    width:25px;
     position: static;
-    /*left: 20px;
-    top: 20px;*/
-     text-align: center;
-     margin-left: 100px;
     
-    margin-top: 5px;
-    padding:20px;
-}
-.itemf{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;
-    width:25px;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:20px;
-    margin-bottom: 5px;
-}
-.itemg{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;;
-    width:25px;
-    
-    margin-top: 5px;
-    text-align: center;
-    margin-left: 100px;
-    padding:20px;
-    
-    
-}
-.itemh{
-    border: 2px solid red;
+}   
+#absolute{
     background-color: orange;
-    height: 25px;
-    width:25px;
     position: absolute;
-    right: 200px;
-    
-     text-align: center;
-     margin-left: 100px;
-    
-    margin-top: 5px;
-    padding:20px;
-}
-.itemi{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;
-    width:25px;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:20px;
-    margin-bottom: 5px;
-}
-.itemj{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;
-    width:25px;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:20px;
-    margin-bottom: 5px;
-}
-.itemk{
-    border: 2px solid red;
-    background-color: orange;
-    height: 25px;
-    width:25px;
-    position: sticky;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:20px;
-    margin-bottom: 5px;
+    right: 250px; 
+    /* doubt*/
 
 }
-.iteml{
-    border: 2px solid red;
-    background-color: skyblue;
-    height: 25px;
-    width:25px;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:20px;
-    margin-bottom: 5px;
+#scroll{
+    overflow: scroll;
 }
-.heading3{
-    font-size: 2rem;
-    font-style: oblique;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 30px;
+#sticky{
+    background-color: orange;
+    position: sticky;
+    top: 0; 
 }
-.boxA{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    width: 70%; 
-    height: 500px;
-   margin-left:250px;
-   border: 2px solid red;
-   margin-top: 40px;
-   padding-top: 50px;
-   padding-bottom: 100px;
-}
-.itemA{
-    border: 2px solid red;
-    background-color: skyblue;
-    height:40px;
-    width:40px;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:30px;
-    margin-bottom: 5px;
-}
-.itemB{
-    border: 2px solid red;
-    background-color: skyblue;
-    height:40px;
-    width:40px;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:30px;
-    margin-bottom: 5px;
-}
-.itemC{
-    border: 2px solid red;
-    background-color: skyblue;
-    height:40px;
-    width:40px;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:30px;
-    margin-bottom: 5px;
-}
-.itemD{
-    border: 2px solid red;
-    background-color: skyblue;
-    height:40px;
-    width:40px;
-   
-     margin-top: 5px;
-    text-align: center;
-    margin-left:100px;
-    padding:30px;
-    margin-bottom: 5px;
-}
-.boxB{
-    display: flex;
-    align-content: center;
-    justify-content:center ;
-   
-    flex-wrap: wrap;
-    
-    width: 50%; 
-    height: auto;
-   margin-left: 400px;
-   border: 2px solid red;
-   margin-top: 40px;
-   padding-top: 100px;
-   padding-bottom: 100px;
+/* -----------------------------------------------------part3---------------------------------------------------------------- */
+ .part3{
+    background-color: lightgray;
+    height: 900px;
 }
 .item{
     border: 2px solid red;
     background-color: skyblue;
     height:40px;
     width:40px;
-   
-     margin-top: 2px;
-    text-align: center;
-    margin-left: 2px;
-    margin-right: 2px;
     padding:30px;
-    margin-bottom: 5px;
+    margin: 5px;
+}
+.boxA{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 70%; 
+    height: 500px;
+   margin-left:250px;
+   border: 2px solid red;
+   padding-top: 50px;
+   padding-bottom: 100px;
+}
+/* ---------------------------------------------------part4----------------------------------------------------------------------- */
+.part4{
+    height: 650px;
+    background-color: lawngreen;
+}
+.boxB{
+    display: flex;
+    align-content: center;
+    justify-content:center ;
+    flex-wrap: wrap;
+    width: 70%; 
+    height: auto;
+   margin-left: 250px;
+   border: 2px solid red;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+/* ---------------------------------------------------------part5----------------------------------------------------------- */
+.part5{
+    height: 400px;
+   background-color: lightgrey;
 }
 .boxC{
     display: flex;
     justify-content: space-between;
-    width: 700px; 
+    width: 70%; 
     height: auto;
-   margin-left: 500px;
-   
+   margin-left: 250px;
    border: 2px solid red;
-   margin-top: 40px;
    padding-top: 100px;
    padding-bottom: 100px;
 }
 #grow{
     flex-grow: 2;
 }
+    /* -----------------------------------------------------part6----------------------------------------------------------- */
+ .part6{
+        height: 350px;
+        background-color: lawngreen;
+ }
+
 .boxD{
     
         display: flex;
         align-content: center;
        justify-content: center;
-       
-        flex-wrap: wrap;
-        width: 700px; 
+       flex-wrap: wrap;
+        width: 70%; 
         height: auto;
-       margin-left: 500px;
-       margin-bottom: 100px;
-       border: 2px solid red;
-       margin-top: 40px;
-       padding-top: 100px;
-       padding-bottom: 100px;
+         margin-left: 250px;
+        border: 2px solid red;
+        padding-top: 100px;
+         padding-bottom: 100px;
 
 }
 #order{
     order: 6;
+    
 }
+/* -------------------------------------------------------footer------------------------------------------------------------ */
 .footer{
+    display: flex;
     background-color: rgb(18, 179, 179);
-    align-items: center;
+   align-items: center;
+   justify-content: center;
+   height: 70px;
+   
 
 }
 .footer a{
+
     color: blue;
     padding: 2px;
     margin-left: 100px;
+    
+    
 }
-/*.top{
-    place-self:bottom;
-    position: sticky;
-    bottom: 30px;
-    color: darkred;
-    border-radius: 70%;
+/* ------------------------------------------------------footer end--------------------------------------------------------- */
+  .top-up{
+    position: fixed;
+    bottom: 10%;
+    right: 30px;
+    background-color: red;
+    padding: 20px;
+    border-radius: 50px;
+ }
+    
 
-}*/
+.fa-arrow-up{
+    font-size: 30px;
+     
+}
+ 
 
 
 
