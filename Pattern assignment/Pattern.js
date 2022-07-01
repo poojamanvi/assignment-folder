@@ -42,53 +42,27 @@
 // Question-2
 // let n=5
 // for(let i=1;i<=n;i++){
-//     let num=' '
-//     for(let j=n;j>i;j--){
-//         num+=' '
-//     }
-//         for(let k=0;k<i*2-1;k++){
-//             if(k===0||k===2*i-2){
-//                 num+=' * ' 
-//             }else{
-//                 num+='  '
-//             }
-//         }        
-// }
-// for(let i=1;i<=n;i++){
-//     let num=' '
-//     for(let j=0;j<i;j--){
-//         num+=' '
-//     }
-//         for(let k=(n-i)*2-1;k>=1;k--){
-//             if(k===1||k===(n-i)*2-1){
-//                 num+=' * ' 
-//             }else{
-//                 num+='  '
-//             }
-        
-//         }
-// }
-// console.log(num)
-
-
-
-
-// Question-2
-// let n =5
-// for(i=1;i<=n;i++){
-//     let num=' '
-//     for(j=1;j<=n;j++){
-//         if(){
+//     let num='   '
+//     for(let j=1;j<=n;j++){
+//         if(i+j==n-1||i+j==n+3){
 //             num+=' * '
 //         }else{
-//             num+='  '
+//             if(i+j==n+1 && i!=j && i<5 && j<5 ){
+//                 num+=' * '
+//             }else{
+//                 num+='   ' 
+//             }
+            
+        
 //         }
+        
+    
 //     }
-
-//     console.log(num)
+//     console.log(num);
 // }
-// 
-// 
+
+
+        
 
 
 //question-1
