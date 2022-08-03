@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+body{
+    
+    padding: 25px;
+    background-color: rgb(224, 146, 90);
+}
+.container{
+    max-width: 900px;
+    width: 100%;
+    background-color: rgb(144, 211, 77);
+    margin: auto;
+    padding: 15px;
+    overflow-x: auto;
+    
+}
