@@ -54,7 +54,7 @@ sumbit.addEventListener('click',function (){
             container.removeChild(spanC);
             container.removeChild(spanD);
             
-            
+            error4.innerText = "input field is empty"
            
             
         })

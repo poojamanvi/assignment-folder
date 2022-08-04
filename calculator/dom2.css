@@ -1,0 +1,41 @@
+.container{
+    max-width: 400px;
+    background-color:wheat;
+    margin: auto;
+}
+
+.display{
+    height: 70px;
+    line-height: 2;
+    font-size: 25px;
+    font-weight:bold ;
+    text-align: right;
+    background-color:darkcyan;
+    color: white;
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    
+}
+
+
+.btn{
+    border: 2px solid lightslategray;
+    text-align: center;
+    line-height: 2;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:lightslategray;
+    color:white;
+}
+
+/* factorial
+this key - ^
+infinity
+o is come before  num */
