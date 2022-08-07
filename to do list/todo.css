@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     background-color: burlywood;
+     padding: 40px;
+}
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-left: 60px;   
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+.container1{
+    border: 1px solid black ;
+    width: 250px;
+    text-align: center;
+   
+}
+.container2{
+    border: 1px solid black ;
+    width: 250px;
+    text-align: center;
+}
+
+.container3{
+    border: 1px solid black ;
+    width: 250px;
+    text-align: center;
+}
+.container_heading{
+    background-color: darkgoldenrod;
+    margin:10px;
+    padding: 5px;
+}
+
+#input{
+    border:1px solid black;
+    margin:5px;
+    padding:2px;
+    text-align: left;
+    height: 30px;
+}
+.sumbit{
+    height:30px;
+    background-color:limegreen;
+    padding:5px
+}
